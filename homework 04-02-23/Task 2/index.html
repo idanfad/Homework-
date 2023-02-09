@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <script type="module" src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="headerBlock">
+        <h1>Welcome To my Salary calculator</h1>
+    </div>
+    <hr id="headHr">
+    <div id="header2Block">
+        <h2>Enter paycheck details </h2>
+    </div>
+    <div class="container">
+        <div class="rowDiv"></div>
+        <div class="rowDiv" id="formBlock">
+            <label>First name:</label><br>
+            <input type="text" id="fName" class="inputs"><br><br>
+            <label>Last name:</label><br>
+            <input type="text" id="lName" class="inputs"><br><br>
+            <label>Salary amount (Before taxes):</label><br>
+            <input type="number" id="salary" class="inputs"><br><br>
+            <label>Pension precentage:</label><br>
+            <input type="number" id="pension" class="inputs" style="width: 50px;">%<br><br>
+            <label>Education fund:</label><br>
+            <input type="number" id="fund" class="inputs" style="width: 50px;">%<br><br>
+            <button id="createBtn">Calculate</button><br><br><br>
+            <div id="fullName"></div><br>
+            <div id="beforeTaxes"></div>
+            <div id="pensionCut"></div>
+            <div id="advFundCut"></div>
+            <div id="incomeTaxesDisplay"></div>
+            <div id="totalSalary"></div>
+            
+        </div>
+        <div class="rowDiv"></div>
+    </div>
+    
+    <div id="footerBlock">
+        <hr id="footerHr">
+        <h3>Developed by Idan Fadida </h3>
+    </div>
+
+</body>
+
+</html>
